@@ -1,11 +1,11 @@
 # DnsGo
-Make DNS go away with a DOS attack
+Flood a DNS server with a DoS attack. DNS protocol implemented from scratch.
 
 ## The core idea
-A lot of networks use a self-hosted DNS server, and, especially in home networks, the server is often-times a potato. One machine sending a bunch of queries is enough to overload the server, and make it impossible for the whole network to access the web and other services that need DNS to work.
+A lot of networks use a self-hosted DNS server, and, especially in home networks, the server is oftentimes a potato. One machine sending a bunch of queries is enough to overload the server, and make it impossible for the whole network to access the web and other services that need DNS to work.
 
-## Why I made this?
-This project wouldn't be interesting if it was just a bunch of threads sending DNS queries in a while-loop. The fun part was making a DNS client from scratch. Obviously this is for educational purposes only.
+## Why did I make this?
+This project wouldn't be interesting if it were just a bunch of threads sending DNS queries in a while-loop. The fun part was making a DNS client from scratch. Obviously this is for educational purposes only.
 
 ## Usage
 First, build the program:
